@@ -10,7 +10,7 @@ Roadmap
 1. Finishing first specs
 2. Zoning
 3. Preparing estimated sprints
-4. Developpment !
+4. Development !
 5. Demo !
 
 
