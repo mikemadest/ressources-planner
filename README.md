@@ -1,9 +1,9 @@
 # ressources-planner
 Simple planing tool for team and projects.
-This is meant as a code and project management showcase,
-also it's inspired on current job realcase needs.
+Inspired by current job realcase needs.
 
-Project started 03/11/2017
+Important : i won't work on this as long as i'm already working full time.
+As it is now, think of this as written ideas on this app that i wanted to keep.
 
 Roadmap
 
@@ -20,7 +20,7 @@ having a global overlook on project, teams and users occupations.
 
 
 ** Task **
-=> has dependancies
+=> has dependencies
   - previous task needed
   - customer validation
 
@@ -31,13 +31,12 @@ having a global overlook on project, teams and users occupations.
   - specs unclear (so we did it anyway because we couldn't do otherwise XD)
   - no way to get the client to be clear about his needs (WTF)
 
-=> on the contrary
+=> "delayable"
   - can be pushed back, no problem
   - probably something priority related,
   but this way we will have nice picto so it shows in the planning view for deciding purpose.
 
 => Priority
-  - we have to know it this task is mandatory for following tasks
 
 => Type
   - new feature
@@ -63,7 +62,6 @@ and it look like it works... but : bad code, missing features...
 => client
 
 
-
 ** Features **
 - we want to be able to configure work days
 - non worked day, holidays need to be in the planning.
@@ -71,12 +69,19 @@ and it look like it works... but : bad code, missing features...
 - if a task is sliding, user planning and dependances slides too (checkbox to confirm planning slide).
 
 
-
-
 2. Zoning
 ... ok, not the point of this demo but i'll try that one, maybe...
 
+
 3. Sprints
-- sprint 1 : REST api (Laravel probably or Lumen/Slim once i've established feature list)
-- sprint 2 : Angular front
-- sprint x : if needed :)
+Still to be decided. 
+Each sprint has to be something working and i'll probably focus the first one
+on mocking the webservice and having a simple UI for the front tool.
+Then i'll build the database, webservice. Keeping to the basics.
+
+After that i'll upgrade the app by adding features with the same order :
+- mock data + ui
+- webservice
+
+So, what's important here is how to start something simple enough
+to be made by one guy in 2 - 3 days but still meaningfull.
